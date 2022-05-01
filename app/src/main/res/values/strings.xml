@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Mrs.MuaRestaurant</string>
+    <string name="notification_fragment">Notification Fragment</string>
+    <string name="home_fragment">Home Fragment</string>
+    <string name="chat_fragment">Chat Fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="log_in">Log In</string>
+    <string name="sing_up">Sing Up</string>
+    <string name="mrs_mua">Mrs. Mua</string>
+    <string name="email_or_user_name">Email or User Name</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="login_with">Hoặc đăng nhập với</string>
+    <string name="password">Password</string>
+    <string name="re_password">Re Password</string>
+    <string name="passwords">Password</string>
+    <string name="trang_ch">Trang chủ</string>
+    <string name="blog">Tin tức</string>
+    <string name="menu">Thực đơn</string>
+    <string name="order">Đặt bàn</string>
+    <string name="setting">Cài đặt</string>
+
+    <string name="search_bar">Search Bar</string>
+    <string name="hyderabad">Hyderabad</string>
+</resources>
