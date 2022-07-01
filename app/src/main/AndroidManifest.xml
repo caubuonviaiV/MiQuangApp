@@ -1,23 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.mrsmuarestaurant">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:networkSecurityConfig="@xml/config_network"
+        android:roundIcon="@mipmap/ic_logo_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="s">
         <activity
-            android:name=".activity.BottomBarActivity"
+            android:name=".activity.SuccessfulTransactionActivity"
             android:exported="false" />
-<!--         <activity -->
-<!--         android:name=".activity.BottomBarActivity" -->
-<!--         android:exported="false" /> -->
         <activity
             android:name=".activity.LoginActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".activity.DetailProductActivity" />
+        <activity android:name=".activity.DetailPostActivity" />
+        <activity android:name=".activity.DeliveryActivity" />
+        <activity android:name=".activity.AddAddressActivity" />
+        <activity android:name=".activity.BottomBarActivity" />
+        <activity android:name=".activity.ListAddressActivity" />
+        <activity android:name=".activity.HistoryTransactionActivity" />
+        <activity android:name=".activity.DetailTransactionActivity" />
+        <activity
+            android:name=".activity.StartScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,0 +1,49 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme.ButtonNavigation" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorPrimaryVariant">#FFC700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorPrimary</item>
+        <item name="colorSecondaryVariant">@color/biru</item>
+        <item name="colorOnSecondary">@color/colorPrimaryDark</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.Toolbar" parent="ThemeOverlay.AppCompat.ActionBar" />
+
+    <style name="AppTheme.MrsMuaRestaurant" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">#FDD458</item>
+        <item name="colorOnPrimary">@color/colorPrimaryDark</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorPrimaryDark</item>
+        <item name="colorSecondaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+</resources>

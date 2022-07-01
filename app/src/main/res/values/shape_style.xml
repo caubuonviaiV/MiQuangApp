@@ -27,6 +27,11 @@
     <style name="Button4">
         <item name="cornerSize">30%</item>
     </style>
+    <style name="Button5">
+        <item name="cornerSize">50%</item>
+
+    </style>
+
     <style name="ItemImag">
         <item name="cornerSize">20%</item>
     </style>
@@ -49,7 +54,7 @@
         <item name="android:text">@string/ligon</item>
         <item name="android:gravity">center</item>
         <item name="android:textStyle">bold|normal</item>
-        <item name="android:textColor">@color/bg_screen1</item>
+        <item name="android:textColor">#EA00FF</item>
     </style>
     <style name="somllTextStyle">
         <item name="android:paddingLeft">8dp</item>
@@ -58,7 +63,7 @@
         <item name="android:text">@string/ligon</item>
         <item name="android:gravity">center</item>
         <item name="android:textStyle">normal</item>
-        <item name="android:textColor">@color/bg_screen1</item>
+        <item name="android:textColor">#EA00FF</item>
     </style>
 
     <style name="FabShape6">
@@ -95,8 +100,9 @@
     </style>
 
     <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
-        <item name="android:textSize">18dp</item>
-        <item name="android:textColor">@color/green</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#EA00FF</item>
     </style>
 
+    <string name="ligon" />
 </resources>

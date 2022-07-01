@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardElevation="@dimen/cardview_default_elevation"
+    app:cardCornerRadius="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"  >
+
+            <ImageView
+                android:id="@+id/img_post"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                tools:ignore="UnusedAttribute" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignBottom="@id/img_post"
+                android:src="@drawable/bottom_shadow"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:id="@+id/author"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="150dp"
+                android:drawablePadding="10dp"
+                android:ellipsize="end"
+                android:gravity="bottom"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="@string/trung_blogger"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img_post"
+                android:background="@drawable/round_white"
+                android:padding="3dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="-50dp">
+                <ImageView
+                    android:src="@drawable/ic_date"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"/>
+                <TextView
+                    android:id="@+id/tv_created_at"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/bloue"
+                    android:layout_marginStart="27dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="Oct 12, 2020"/>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img_post"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvp_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="16dp"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="@string/title"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="12dp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="@string/decription" />
+            </LinearLayout>
+
+        </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -3,58 +3,163 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/bg_btn_beli.xml" value="0.1405" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/bg_btn_cart.xml" value="0.1405" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/bg_btn_login1.xml" value="0.16" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/bg_btn_login2.xml" value="0.134" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/bg_bulet.xml" value="0.1405" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/bg_penambahan.xml" value="0.1465" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/bg_round_white.xml" value="0.135" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/bottom_shadow.xml" value="0.1465" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/button.xml" value="0.167" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/button_corner_primarydark.xml" value="0.146" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/forget.xml" value="0.167" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/ic_add_cart.xml" value="0.126" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/ic_baseline_add_24.xml" value="0.1405" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/ic_baseline_add_shopping_cart_24.xml" value="0.1405" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/ic_baseline_brightness_1_24.xml" value="0.155" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/ic_baseline_business_24.xml" value="0.155" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/ic_baseline_chevron_right_24.xml" value="0.155" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/ic_baseline_delete_24.xml" value="0.1405" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/ic_baseline_delete_24_orange.xml" value="0.1405" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/ic_baseline_edit_24.xml" value="0.155" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/ic_baseline_notifications_active_24.xml" value="0.155" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/ic_baseline_remove_24.xml" value="0.1515" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/ic_baseline_share_24.xml" value="0.1405" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/ic_baseline_shopping_cart_24.xml" value="0.1465" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/ic_baseline_shopping_cart_24_orange.xml" value="0.1465" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/ic_cart.xml" value="0.135" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/ic_date.xml" value="0.1465" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.16" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/ic_location.xml" value="0.126" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/ic_lock_oren_24dp.xml" value="0.155" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/ic_policy.xml" value="0.146" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/ic_profile.xml" value="0.146" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/ic_searchh.xml" value="0.1" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/ic_twitter.xml" value="0.1465" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/login_background.xml" value="0.126" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/round_white.xml" value="0.1465" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/splash_screen_background.xml" value="0.146" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/switch_trcks.xml" value="0.118" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/switch_trckss.xml" value="0.126" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/switch_tumbs.xml" value="0.118" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable-v24/toolbar_background.xml" value="0.126" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/add_to_cart_bg.xml" value="0.1465" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/bg_btn_add.xml" value="0.1465" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/bg_btn_google.xml" value="0.1465" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/bottom_shape.xml" value="0.16" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/button_corner_color.xml" value="0.1465" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/button_corner_colorPrimaryDark.xml" value="0.146" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/buttonshape.xml" value="0.174" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/card_background.xml" value="0.1465" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic_Logo_App_background.xml" value="0.1445" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic__notifications_pink.xml" value="0.16" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic_account_bl.xml" value="0.102" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic_account_circle_black_24dp.xml" value="0.134" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic_add.xml" value="0.102" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic_avatar.xml" value="0.1465" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic_baseline_check_circle_24.xml" value="0.1465" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic_baseline_home_work_24.xml" value="0.1465" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic_baseline_payment_24.xml" value="0.1465" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic_baseline_restaurant_menu_24.xml" value="0.1565" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.102" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.102" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic_baseline_table_chart_24.xml" value="0.102" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic_blog_nav.xml" value="0.1" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic_cart.xml" value="0.1465" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic_chat.xml" value="0.16" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic_date_range_light_blue_24dp.xml" value="0.1465" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic_email_black_24dp.xml" value="0.1285" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic_explore.xml" value="0.16" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic_home.xml" value="0.1" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic_home_nav.xml" value="0.102" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic_img_address.xml" value="0.1465" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic_img_gender.xml" value="0.1465" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic_img_name.xml" value="0.1465" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.102" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic_location_on_light_blue_24dp.xml" value="0.174" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic_lock_black_24dp.xml" value="0.1285" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic_mdi_star_rate.xml" value="0.1465" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic_menu_nav.xml" value="0.1" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic_notification.xml" value="0.16" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic_notifications.xml" value="0.102" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic_order_nav.xml" value="0.102" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic_person_outline_white_24dp.xml" value="0.174" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic_phone_android_black_24dp.xml" value="0.1285" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic_pink_home.xml" value="0.16" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic_search.xml" value="0.16" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic_search_black_24dp.xml" value="0.1465" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic_setting_nav.xml" value="0.102" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic_user.xml" value="0.146" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/ic_view_back.xml" value="0.1465" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/orange_background.xml" value="0.1465" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/radius.xml" value="0.102" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/search_bg.xml" value="0.1465" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/tab_corners_product.xml" value="0.1465" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/tab_corners_shape.xml" value="0.1" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/tab_corners_shope.xml" value="0.1165" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/time_bg.xml" value="0.1465" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/drawable/yellow_btn_background.xml" value="0.1465" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/font/open_sans_bold.xml" value="0.2546875" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/font/open_sans_semibold.xml" value="0.25076923076923074" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/activity_add_address.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/activity_botom_bar.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/activity_bottom_bar.xml" value="0.25" />
-        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/activity_login.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/activity_delivery.xml" value="0.25" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/activity_detail_post.xml" value="0.25" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/activity_detail_product.xml" value="0.25" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/activity_detail_transaction.xml" value="0.25" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/activity_history.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/activity_history_transaction.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/activity_list_address.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/activity_login.xml" value="0.21" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/activity_masuk.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/activity_new.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/activity_order.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/activity_payment.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/activity_shipping.xml" value="0.22" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/activity_splash_screen.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/activity_start_screen.xml" value="0.22" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/activity_successful_transaction.xml" value="0.25" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/fragment_blank.xml" value="0.19114583333333332" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/fragment_blog.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/fragment_cart.xml" value="0.25" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/fragment_chat.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/fragment_home.xml" value="0.25" />
-        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/fragment_menu.xml" value="0.10914855072463768" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/fragment_menu.xml" value="0.2" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/fragment_notification.xml" value="0.1" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/fragment_order.xml" value="0.10916919959473151" />
-        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/fragment_setting.xml" value="0.10916919959473151" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/fragment_reservation.xml" value="0.25" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/fragment_setting.xml" value="0.25" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/fragment_user.xml" value="0.1" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/item_address.xml" value="0.25" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/item_cart.xml" value="0.25" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/item_courier.xml" value="0.5" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/item_history.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/item_history_transaction.xml" value="0.25" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/item_menu_all.xml" value="0.33" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/item_noodle.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/item_post.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/item_product.xml" value="0.22" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/item_product_noodles.xml" value="0.20885416666666667" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/item_produk.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/item_slider.xml" value="0.25" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/item_spinner.xml" value="0.20885416666666667" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/item_transaction_product.xml" value="0.25" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/items_listcat.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/nav_drawar.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/nava_heder.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/toolbar.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/layout/toolbar_custom.xml" value="0.25" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/menu/bottom_menu.xml" value="0.20885416666666667" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/menu/menu.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/menu/top_menu.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/menu/top_nav.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/mipmap-anydpi-v26/ic_Logo_App_round.xml" value="0.1305" />
         <entry key="..\:/Users/nO/AndroidStudioProjects/MrsMuaRestaurant/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/nO/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_spinner_dropdown_item.xml" value="0.22447916666666667" />
       </map>
     </option>
   </component>

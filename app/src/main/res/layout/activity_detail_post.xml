@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.DetailPostActivity">
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/img_post"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/start"
+                android:scaleType="centerCrop" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="270dp"
+                android:layout_marginTop="-19dp"
+                android:background="@drawable/round_white"
+                android:padding="5dp">
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:src="@drawable/ic_date" />
+
+                <TextView
+                    android:id="@+id/tv_created_at"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="27dp"
+                    android:layout_marginEnd="10dp"
+                    android:textSize="16sp"
+                    android:text="@string/date"
+                    android:fontFamily="@font/roboto_bold"
+                    android:textColor="@color/bluetu" />
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv_nameDtp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="16dp"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="@string/title"
+                android:fontFamily="@font/roboto_bold"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tv_description"
+                    android:fontFamily="@font/roboto_medium"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="16sp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="16dp"
+                    android:text="@string/decription" />
+            </androidx.core.widget.NestedScrollView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:background="#F3EDDA9F" />
+
+        </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F8F8F8"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="@string/list_cmt"
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="@color/dark"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_cmtPost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp" />
+        <Button
+            android:id="@+id/btn_addCart"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="260dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/add_to_cart_bg"
+            android:fontFamily="@font/roboto_black"
+            android:text="@string/comment"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

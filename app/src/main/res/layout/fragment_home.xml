@@ -1,171 +1,235 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<androidx.drawerlayout.widget.DrawerLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/mainDrawer">
-    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
-        android:id="@+id/homeSwipeRefresh"
+    tools:context=".fragment.HomeFragment" >
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <ScrollView
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:background="@drawable/toolbar_background"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp"
+            android:elevation="@dimen/fab_margin"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:fillViewport="true">
+            android:layout_height="wrap_content">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="13dp">
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="2dp"
+                    app:strokeWidth="2dp"
+                    app:shapeAppearanceOverlay="@style/Circular"
+                    android:src="@drawable/logo"
+                    android:padding="6dp"
+                    android:scaleType="centerCrop"
+                    app:strokeColor="@color/cardview_light_background"/>
                 <LinearLayout
-                    android:background="@drawable/toolbar_background"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
                     android:orientation="vertical"
-                    android:layout_marginBottom="10dp"
-                    android:elevation="@dimen/fab_margin"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_black"
+                        android:text="@string/Quang_Noodles"
+                        android:textAppearance="@style/textStyle"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/tv02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:text="@string/Quang_origin"
+                        android:fontFamily="@font/roboto_bolditalic"
+                        android:textAppearance="@style/textStyle"
+                        android:textColor="@color/white"
+                        />
+
+                </LinearLayout>
+                <RelativeLayout
+                    android:id="@+id/Tocart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center" >
+                    <TextView
+                        android:id="@+id/iteamAdd"
+                        android:layout_width="19dp"
+                        android:layout_height="19dp"
+                        android:background="@drawable/switch_trckss"
+                        android:backgroundTint="#ff0000"
+                        android:gravity="center"
+                        android:visibility="invisible"
+                        android:padding="@dimen/margin_btn"
+                        android:text="zero"
+                        android:textSize="11sp"
+                        tools:ignore="SmallSp" />
+                    <ImageView
+                        android:id="@+id/addingCard"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginStart="@dimen/smollmargin"
+                        android:layout_marginEnd="@dimen/fab_margin"
+                        android:src="@drawable/ic_cart" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="70dp">
+            <LinearLayout
+                android:layout_marginBottom="15dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/vp_slider"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp" />
+
+                <LinearLayout
+                    android:background="@color/white"
+                    android:orientation="vertical"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
-                    <LinearLayout
-                        android:layout_weight="3"
-                        android:orientation="horizontal"
-                        android:layout_width="match_parent"
-                        android:layout_height="0dp" >
-                    <com.google.android.material.imageview.ShapeableImageView
-                       android:id="@+id/profileImgs"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        android:layout_marginStart="5dp"
-                        android:layout_marginEnd="2dp"
-                        app:strokeWidth="2dp"
-                        app:shapeAppearanceOverlay="@style/Circular"
-                        android:src="@drawable/avatar"
-                        android:padding="6dp"
-                        android:scaleType="centerCrop"
-                        app:strokeColor="@color/cardview_dark_background"/>
-                    <LinearLayout
-                        android:layout_width="0dp"
+                    <TextView
+                        android:id="@+id/mn"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:layout_marginTop="22dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginBottom="12dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_weight="3"
-                        android:layout_marginStart="3dp"
-                        android:layout_marginEnd="8dp"
-                        android:layout_marginTop="6dp"
-                        android:background="@drawable/login_background"
-                        >
-                        <EditText
-                            android:id="@+id/search"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:layout_marginStart="@dimen/smollmargin"
-                            android:layout_marginEnd="@dimen/smollmargin"
-                            android:background="@null"
-                            android:layout_gravity="center_vertical"
-                            android:hint="@string/search_bar"
-                            android:imeOptions="actionSearch"
-                            android:inputType="text"
-                            android:textColor="@color/black"
-                            android:textSize="16sp"
-                            android:textStyle="bold|normal"
-                            tools:ignore="Autofill, TouchTargetSizeCheck"
-                            />
-                        <ImageButton
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_margin="3dp"
-                            android:background="@drawable/login_background"
-                            android:backgroundTint="@color/dot_dark_screen3"
-                            android:padding="3dp"
-                            android:src="@drawable/ic_searchh"/>
-                    </LinearLayout>
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="@string/newsp"/>
 
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rv_product"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:layout_marginTop="22dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginBottom="12dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="@string/c_c_m_n_m_qu_ng"/>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rv_noodles"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
 
                 </LinearLayout>
 
+                <androidx.cardview.widget.CardView
+                    android:layout_width="380dp"
+                    android:layout_height="162dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="20dp"
+                    app:cardBackgroundColor="@color/colorPrimaryDark"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="10dp">
+
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:weightSum="2"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginBottom="13dp">
-                        <ImageView
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:src="@drawable/ic_location"
-                            android:layout_gravity="center"
-                            android:contentDescription="@string/hyderabad"/>
-                        <LinearLayout
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="2"
-                            android:orientation="vertical"
-                            android:gravity="center">
-                            <TextView
-                                android:id="@+id/tv01"
-                                android:layout_width="wrap_content"
-                                android:layout_height="0dp"
-                                android:layout_weight="1"
-                                android:textSize="16sp"
-                                android:text="@string/hyderabad"
-                                android:textAppearance="@style/textStyle"
-                                android:textColor="@color/white"
-                                />
-                            <TextView
-                                android:id="@+id/tv02"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:textSize="11sp"
-                                android:text="TubmInh Minh"
-                                android:textAppearance="@style/textStyle"
-                                android:textColor="@color/white"
-                                />
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="30dp"
+                        android:orientation="vertical"
+                        android:paddingTop="30dp">
 
-                        </LinearLayout>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/lienhe"
+                            android:fontFamily="@font/roboto_bold"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:fontFamily="@font/roboto_medium"
+                            android:text="@string/giaiquyet"
+                            android:textColor="#fff"
+                            android:textSize="16sp" />
+
                         <RelativeLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:layout_gravity="center"
-                            >
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="30dp">
 
-                            <TextView
-                                android:id="@+id/iteamAdd"
-                                android:layout_width="19dp"
-                                android:layout_height="19dp"
-                                android:background="@drawable/switch_trckss"
-                                android:backgroundTint="#ff0000"
-                                android:gravity="center"
-                                android:visibility="invisible"
-                                android:padding="@dimen/margin_btn"
-                                android:text="zero"
-                                android:textSize="10sp"
-                                tools:ignore="SmallSp" />
+                            <Button
+                                android:id="@+id/bt_resevaltioncall"
+                                android:layout_width="150dp"
+                                android:layout_height="55dp"
+                                android:background="@drawable/button"
+                                android:fontFamily="@font/roboto_bold"
+                                android:text="@string/datban"
+                                android:textColor="#fff"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
 
-                            <ImageView
-                                android:id="@+id/addingCard"
-                                android:layout_width="30dp"
-                                android:layout_height="30dp"
-                                android:layout_marginStart="@dimen/smollmargin"
-                                android:layout_marginEnd="@dimen/fab_margin"
-                                android:src="@drawable/ic_add_cart"
-                                app:tint="@color/white" />
+                            <Button
+                                android:id="@+id/bt_ordercall"
+                                android:layout_width="150dp"
+                                android:layout_height="55dp"
+                                android:layout_alignParentEnd="true"
+                                android:background="@drawable/button"
+                                android:fontFamily="@font/roboto_bold"
+                                android:text="@string/donhang"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
 
                         </RelativeLayout>
                     </LinearLayout>
-                </LinearLayout>
-<!--                dsdscontent-->
+
+                </androidx.cardview.widget.CardView>
+
             </LinearLayout>
 
-        </ScrollView>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
 
-    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
-
-
-        android:id="@+id/llBottom"
-        layout="@layout/activity_bottom_bar" />
-
-</androidx.drawerlayout.widget.DrawerLayout>
+</LinearLayout>
