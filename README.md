@@ -1,5 +1,9 @@
-
- 
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">  
+</head>
+<body>
     # MiQuangApp
     <h2>Users:</h2>
     <ul>
@@ -20,7 +24,8 @@
         <li><strong>Manage Orders:</strong> Admins can manage the list of orders, including viewing details, updating status, and sending notifications to customers.</li>
         <li><strong>Manage User Accounts:</strong> Admins can manage the information and permissions of all user accounts on the system.</li>
     </ul>
-![Tên hình ảnh](/public/images/anh.jpg)
- 
 
+</body>
+</html>
+![Tên hình ảnh]('dsadsa)
 
