@@ -1,18 +1,59 @@
 # MiQuangApp
-Người Sử Dụng:
-Xem Thực Đơn: Người dùng có thể xem danh sách món ăn và lựa chọn theo từng loại.
-Đặt Bàn: Khách hàng có thể đặt bàn trước khi đến quán để đảm bảo chỗ ngồi.
-Xem Bài Viết: Người dùng có thể đọc và xem các bài viết liên quan đến nhà hàng.
-Đăng Ký và Đăng Nhập Tài Khoản: Người dùng có thể đăng ký tài khoản mới hoặc đăng nhập vào tài khoản đã có.
-Đặt Hàng: Khách hàng có thể đặt món ăn trực tuyến thông qua hệ thống.
-Xem Thông Tin Nhà Hàng: Người dùng có thể xem thông tin chi tiết về nhà hàng, bao gồm địa chỉ, giờ hoạt động và thông tin liên hệ.
-Bình Luận và Đánh Giá: Khách hàng có thể bình luận và đánh giá các bài viết và món ăn.
-Quản Lý:
-Quản Lý Món Ăn: Quản lý danh sách món ăn, bao gồm thêm, sửa, xóa và cập nhật thông tin món.
-Quản Lý Nhận Xét: Quản lý các nhận xét và đánh giá của khách hàng về món ăn.
-Quản Lý Bài Viết: Quản lý nội dung và thông tin các bài viết trên trang web.
-Quản Lý Thanh Trượt: Quản lý các thanh trượt và banner hiển thị trên trang web.
-Quản Lý Đơn Hàng: Quản lý danh sách đơn hàng, bao gồm xem chi tiết, cập nhật trạng thái và gửi thông báo cho khách hàng.
-Quản Lý Tài Khoản Người Dùng: Quản lý thông tin và quyền hạn của tất cả các tài khoản người dùng trên hệ thống.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Online Reservation and Ordering System</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        max-width: 800px;
+        margin: auto;
+        padding: 20px;
+    }
+    h2 {
+        color: #333;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    li {
+        margin-bottom: 10px;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h2>Users:</h2>
+    <ul>
+        <li><strong>View Menu:</strong> Users can view the list of dishes and select by category.</li>
+        <li><strong>Book Table:</strong> Customers can reserve a table in advance to ensure seating.</li>
+        <li><strong>Read Articles:</strong> Users can read and view articles related to the restaurant.</li>
+        <li><strong>Register and Login:</strong> Users can register for a new account or log in to an existing account.</li>
+        <li><strong>Place Order:</strong> Customers can place food orders online through the system.</li>
+        <li><strong>View Restaurant Information:</strong> Users can view detailed information about the restaurant, including address, operating hours, and contact information.</li>
+        <li><strong>Comment and Review:</strong> Customers can comment and review articles and dishes.</li>
+    </ul>
 
+    <h2>Administrators:</h2>
+    <ul>
+        <li><strong>Manage Dishes:</strong> Admins can manage the list of dishes, including adding, editing, deleting, and updating dish information.</li>
+        <li><strong>Manage Reviews:</strong> Admins can manage customer reviews and ratings for dishes.</li>
+        <li><strong>Manage Articles:</strong> Admins can manage the content and information of articles on the website.</li>
+        <li><strong>Manage Sliders:</strong> Admins can manage sliders and banners displayed on the website.</li>
+        <li><strong>Manage Orders:</strong> Admins can manage the list of orders, including viewing details, updating status, and sending notifications to customers.</li>
+        <li><strong>Manage User Accounts:</strong> Admins can manage the information and permissions of all user accounts on the system.</li>
+    </ul>
+</div>
 ![Tên hình ảnh](/public/images/anh.jpg)
+</body>
+</html>
+
+
