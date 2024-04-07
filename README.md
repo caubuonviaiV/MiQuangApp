@@ -27,5 +27,4 @@
 
 </body>
 </html>
-![Tên hình ảnh]('dsadsa)
 
