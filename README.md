@@ -4,7 +4,7 @@
   <meta charset="UTF-8">  
 </head>
 <body>
-    # MiQuangApp
+    # MiQuangApp: web + app: https://s.net.vn/gI81
     <h2>Users:</h2>
     <ul>
         <li><strong>View Menu:</strong> Users can view the list of dishes and select by category.</li>
