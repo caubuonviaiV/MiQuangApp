@@ -4,7 +4,6 @@
   <meta charset="UTF-8">  
 </head>
 <body>
-    # MiQuangApp: 
     Video demo: https://youtu.be/shEaTWJ-LMo
     <h2>Users:</h2>
     <ul>
