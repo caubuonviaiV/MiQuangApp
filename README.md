@@ -5,7 +5,7 @@
 </head>
 <body>
     # MiQuangApp: 
-    Video demo: https://s.net.vn/gI81](https://youtu.be/shEaTWJ-LMo
+    Video demo: https://youtu.be/shEaTWJ-LMo
     <h2>Users:</h2>
     <ul>
         <li><strong>Menu:</strong> Users can view the list of dishes and select by category.</li>
